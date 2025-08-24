@@ -74,13 +74,13 @@ const App = () => {
 				/>
 				<button
 					onClick={handleSearch}
-					className='px-4 py-[10px] rounded-[5px] bg-blue-600 text-white cursor-pointer'
+					className='px-4 py-[10px] rounded-[5px] bg-amber-500 text-white cursor-pointer'
 				>
 					Search
 				</button>
 				<select
 					onChange={handleClickSelect}
-					className='w-[400px] rounded-[5px] py-[10px] pl-[10px] border-[1.5px] appearance-none'
+					className='w-[400px] rounded-[5px] py-[10px] pl-[10px] border-[1.5px] appearance-none outline-none'
 				>
 					<option value='all'>All</option>
 					{category.map((item, index) => (
